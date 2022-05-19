@@ -28,7 +28,7 @@ class ViewController: UIViewController {
     var secondsPassed = 0
     var totalTime = 0
     
-    let eggTime = ["Soft": 3, "Medium": 420, "Hard": 720]
+    let eggTime = ["Soft": 300, "Medium": 420, "Hard": 720]
     
     @IBOutlet weak var titleChange: UILabel!
     @IBOutlet weak var progressBar: UIProgressView!    
