@@ -16,9 +16,10 @@ class ViewController: UIViewController {
         //example functionality
         if counter > 0 {
             print(counter)
-            titleChange.text = "Preparing eggs"
+            titleChange.text = "Preparing eggs..."
             counter -= 1
-        } else if counter == 0 {
+        } else {
+            timer.invalidate()
             titleChange.text = "Done!"
         }
     }
@@ -28,11 +29,7 @@ class ViewController: UIViewController {
     let eggTime = ["Soft": 3, "Medium": 4, "Hard": 7]
     
     @IBOutlet weak var titleChange: UILabel!
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-    }
+    @IBOutlet weak var progressBar: UIProgressView!
     
     @IBAction func hardnessSelected(_ sender: UIButton) {
         
@@ -43,6 +40,8 @@ class ViewController: UIViewController {
         let hardness = sender.currentTitle!
         
         counter = eggTime[hardness]!
+        
+        progressBar.progress = 1
         
     }
     
