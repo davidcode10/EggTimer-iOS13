@@ -1,27 +1,9 @@
-![App Brewery Banner](Documentation/AppBreweryBanner.png)
-
 # Egg Timer
 
-## Our Goal
+Egg timer app to boil your eggs to perfection depending on how you prefer your eggs. 
 
-This module will be a mix of tutorials and challenges. Most importantly, we want you to get comfortable with looking up how to do something you've never done before. In certain places of this module, you’ll need to follow the 5 step process you learnt in the Xylophone module and use Google search, StackOverflow and Apple Documentation to make your code do what you want it to. But there are also other parts where we’ll take you step-by-step through new Swift programming concepts. 
+![E2623241-DEED-468F-B084-3E5AAFC34104](https://user-images.githubusercontent.com/75540250/169520881-68e35357-f759-4b78-b72e-7cbe7f3e27b5.jpeg)
 
-## What You'll Make
+![727782BD-2AED-4070-8829-DC62F84348CD](https://user-images.githubusercontent.com/75540250/169520889-da5f29f3-6789-4743-8fac-632d2cfa330c.jpeg)
 
-You’ll be building a beautiful egg timer app to boil your eggs to perfection depending on how you prefer your eggs. 
-
-## What you will learn
-
-* Swift Collection types - Dictionaries
-* The Swift Timer API
-* Conditional statements - IF/ELSE
-* Conditional statements - Switch
-* Functions with outputs
-* How to use the ProgressView
-
-
-
->This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
-
-![End Banner](Documentation/readme-end-banner.png)
-
+![7026C8EA-3720-4BDF-BF6E-96AA2A0C5C52](https://user-images.githubusercontent.com/75540250/169520894-6e23a825-0446-48af-b6c2-c8f127307046.jpeg)
